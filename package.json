@@ -1,6 +1,6 @@
 {
   "name": "darkrai",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "devDependencies": {
     "@commitlint/cli": "^17.6.6",
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "test": "",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -s -r 0",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r",
     "prepare": "husky install"
   }
 }
