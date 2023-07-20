@@ -1,3 +1,12 @@
+## [0.0.5](https://github.com/liuxian496/darkrai/compare/v0.0.4...v0.0.5) (2023-07-20)
+
+
+### Bug Fixes
+
+* 测试developer 0.05 ([59d3c68](https://github.com/liuxian496/darkrai/commit/59d3c680f364a50db01a3cf5159e303ace214ab2))
+
+
+
 ## [0.0.4](https://github.com/liuxian496/darkrai/compare/f61b33a0b77854fa3648541e73994e7ad58e0744...v0.0.4) (2023-07-20)
 
 
