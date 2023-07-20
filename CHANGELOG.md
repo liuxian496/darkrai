@@ -1,4 +1,9 @@
-## 0.0.1 (2023-07-20)
+## 0.0.2 (2023-07-20)
+
+
+### Bug Fixes
+
+* 修改版本号，测试ChangeLog ([2411903](https://github.com/liuxian496/darkrai/commit/241190342ac4308dca403eec2417d5b08fc26cf8))
 
 
 ### Features
