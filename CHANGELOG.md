@@ -1,13 +1,3 @@
-## [0.0.7](https://github.com/liuxian496/darkrai/compare/v0.0.5...v0.0.7) (2023-07-22)
-
-
-### Features
-
-* 测试developer分支打tag（0.0.6） ([eab2275](https://github.com/liuxian496/darkrai/commit/eab2275aaab602a8cb78696c1d384dc4a16563ae))
-* 测试developer分支生成log，不打tag（0.0.7） ([4ebb393](https://github.com/liuxian496/darkrai/commit/4ebb393dfc812575374165dbb7bc8ace1b6c9d24))
-
-
-
 ## [0.0.5](https://github.com/liuxian496/darkrai/compare/v0.0.4...v0.0.5) (2023-07-20)
 
 
@@ -17,7 +7,7 @@
 
 
 
-## [0.0.4](https://github.com/liuxian496/darkrai/compare/f61b33a0b77854fa3648541e73994e7ad58e0744...v0.0.4) (2023-07-20)
+## [0.0.4](https://github.com/liuxian496/darkrai/compare/v0.0.3...v0.0.4) (2023-07-20)
 
 
 ### Bug Fixes
