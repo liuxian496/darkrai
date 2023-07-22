@@ -1,3 +1,12 @@
+## [0.0.10](https://github.com/liuxian496/darkrai/compare/v0.0.9...v0.0.10) (2023-07-22)
+
+
+### Features
+
+* 测试developer分支提交，merge后，developer打tag，developer生成change log（0.0.10） ([538a8be](https://github.com/liuxian496/darkrai/commit/538a8be5668043a78116f8af0ce49d0bec83898a))
+
+
+
 ## [0.0.9](https://github.com/liuxian496/darkrai/compare/v0.0.8...v0.0.9) (2023-07-22)
 
 
