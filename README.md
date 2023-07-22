@@ -15,3 +15,5 @@
 
 ## 测试developer分支打tag（0.0.6）
   测试多次提交
+
+## 测试developer分支生成log，不打tag（0.0.7）
