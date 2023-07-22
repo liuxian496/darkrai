@@ -12,3 +12,5 @@
 ## 测试developer分支打tag（0.0.4）
 
 ## 测试developer分支打tag（0.0.5）
+
+## 测试developer分支打tag（0.0.6）
