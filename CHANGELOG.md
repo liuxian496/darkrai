@@ -1,3 +1,12 @@
+## [0.0.6](https://github.com/liuxian496/darkrai/compare/v0.0.5...v0.0.6) (2023-07-22)
+
+
+### Features
+
+* 测试developer分支打tag（0.0.6） ([eab2275](https://github.com/liuxian496/darkrai/commit/eab2275aaab602a8cb78696c1d384dc4a16563ae))
+
+
+
 ## [0.0.5](https://github.com/liuxian496/darkrai/compare/v0.0.4...v0.0.5) (2023-07-20)
 
 
