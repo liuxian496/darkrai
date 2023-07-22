@@ -1,3 +1,4 @@
+
 ## [0.0.8](https://github.com/liuxian496/darkrai/compare/v0.0.5...v0.0.8) (2023-07-22)
 
 
@@ -18,7 +19,7 @@
 
 
 
-## [0.0.4](https://github.com/liuxian496/darkrai/compare/f61b33a0b77854fa3648541e73994e7ad58e0744...v0.0.4) (2023-07-20)
+## [0.0.4](https://github.com/liuxian496/darkrai/compare/v0.0.3...v0.0.4) (2023-07-20)
 
 
 ### Bug Fixes
