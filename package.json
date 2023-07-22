@@ -1,6 +1,6 @@
 {
   "name": "darkrai",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "private": false,
   "devDependencies": {
     "@commitlint/cli": "^17.6.6",
