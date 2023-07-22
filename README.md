@@ -20,4 +20,6 @@
 
 ## 测试developer分支提交，merge后，main打tag，developer生成changelog（0.0.8）
 
-## 测试developer分支提交，merge后，developer打tag，developer生成changelog（0.0.9）
+## 测试developer分支提交，merge后，developer打tag，developer生成change log（0.0.9）
+
+## 测试developer分支提交，merge后，developer打tag，developer生成change log（0.0.10）
