@@ -31,6 +31,8 @@ jobs:
 
     needs: test
     runs-on: ubuntu-latest
+
+    steps:
     - run: yarn test-storybook --coverage
 
     - run: yarn test-storybook
