@@ -6,8 +6,9 @@ on:
   pull_request:
     branches: ["main", "developer"]
 
-jobs:     
+jobs:
   build:
+
     runs-on: ubuntu-latest
 
     steps:
