@@ -8,54 +8,30 @@ on:
 
 jobs:
   test:
-    name: Node ${{ matrix.node }} on ${{ matrix.os }}
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      fail-fast: false
-      matrix:
-        node: [16]
-        os: [ubuntu-latest]
-
-    steps:
-      - name: Clone repository
-      - uses: actions/checkout@v3
-
-      - name: Set Node.js Version
-        uses: actions/setup-node@v3
-        with: 
-          node-version: ${{ matrix.node }}
-
-      - name: use yarn
-        run: npm install -g yarn
-
-      - name: Install npm dependencies
-        run: npm install
-
-      - name: Runstorybook
-        run: yarn storybook
-
-      - name: Run Story Coverage    
-        run: yarn test-storybook --coverage
-
-      - name: Run Story Test
-        run: yarn test-storybook
-
-      - name: Coveralls
-        uses: coverallsapp/github-action@v2
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          flag-name: ${{matrix.os}}-node-${{ matrix.node }}
-          parallel: true
-
-  finish: 
-    needs: test
 
     runs-on: ubuntu-latest
 
     steps:
-      - name: Coveralls Finished
-        uses: coverallsapp/github-action@v2
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          parallel-finished: true
+    - uses: actions/checkout@v3
+
+    - name: Use Node.js 16.x
+      uses: actions/setup-node@v3
+      with: 
+        node-version: 16.x
+
+    - name: use yarn
+      run: npm install -g yarn
+
+    - name: npm install, yarn storybook
+      run: |
+        npm install
+        yarn storybook
+  
+  coverage:
+    needs: test
+    - run: yarn test-storybook --coverage
+
+    - run: yarn test-storybook
+
+    - name: Coveralls GitHub Action
+      uses: coverallsapp/github-action@v2
