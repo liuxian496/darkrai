@@ -11,7 +11,7 @@ jobs:
     name: Node ${{ matrix.node }} on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
 
-    strategy: 
+    strategy:
       fail-fast: false
       matrix:
         node: [16],
