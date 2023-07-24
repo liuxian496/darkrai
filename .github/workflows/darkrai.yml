@@ -29,6 +29,7 @@ jobs:
 
   finish:
     needs: test
+    runs-on: ubuntu-latest
     - run: yarn test-storybook --coverage
 
     - run: yarn test-storybook
