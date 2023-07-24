@@ -27,7 +27,7 @@ jobs:
         npm install
         yarn storybook
 
-  coverage:
+  finish:
     needs: test
     - run: yarn test-storybook --coverage
 
