@@ -7,30 +7,30 @@ on:
     branches: ["main", "developer"]
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+    - uses: actions/checkout@v3
 
-      - name: Use Node.js 16.x
-        uses: actions/setup-node@v3
-        with: 
-          node-version: 16.x
+    - name: Use Node.js 16.x
+      uses: actions/setup-node@v3
+      with: 
+        node-version: 16.x
 
-      - name: use yarn
-        run: npm install -g yarn
+    - name: use yarn
+      run: npm install -g yarn
 
-      - name: npm install, yarn storybook
-        run: |
-          npm install
-          yarn storybook
+    - name: npm install, yarn storybook
+      run: |
+        npm install
+        yarn storybook
 
-      -name: yarn test-storybook --coverage, yarn test-storybook
-        run: |
-          yarn test-storybook --coverage
-          yarn test-storybook
+    -name: yarn test-storybook --coverage, yarn test-storybook
+      run: |
+        yarn test-storybook --coverage
+        yarn test-storybook
 
-      - name: Coveralls GitHub Action
-        uses: coverallsapp/github-action@v2
+    - name: Coveralls GitHub Action
+      uses: coverallsapp/github-action@v2
