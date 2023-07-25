@@ -1,4 +1,5 @@
 # darkrai
+[![Coverage Status](https://coveralls.io/repos/github/liuxian496/darkrai/badge.svg?branch=main)](https://coveralls.io/github/liuxian496/darkrai?branch=main)
 
 ## test2
 
