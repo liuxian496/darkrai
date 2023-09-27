@@ -1,4 +1,4 @@
-# [0.1.0](https://github.com/liuxian496/darkrai/compare/v0.0.10...v0.1.0) (2023-07-25)
+# [0.2.0](https://github.com/liuxian496/darkrai/compare/v0.0.10...v0.2.0) (2023-09-27)
 
 
 ### Bug Fixes
@@ -9,6 +9,7 @@
 ### Features
 
 * 初始化TypeScript+StoryBook ([ccd8695](https://github.com/liuxian496/darkrai/commit/ccd8695557da5591b03b4ba6e5cebb71243e1d96))
+* 添加CI Create Release ([d5cb4cb](https://github.com/liuxian496/darkrai/commit/d5cb4cb62a0aded5d4578b7d05e1166492bed6c7))
 * 之前版本已经有tag，测试developer分支开发完成提交后，developer生成change log再提交，统一merge后，打tag ([1fd4ebc](https://github.com/liuxian496/darkrai/commit/1fd4ebc9518a7b8db3f3b9709edde0fe02d18d32))
 
 
